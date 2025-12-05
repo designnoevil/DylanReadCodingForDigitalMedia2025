@@ -224,6 +224,9 @@ Motion leaves a bright white imprint that lingers until the buffer cycles out.
 At this point in development, the system produces block-white trails; every detected motion pixel becomes white and remains so for multiple frames.  
 Trails do not fade gradually — they vanish abruptly when overwritten.
 
+in the image below you can se the ghost trails being over layed the live colour feed, but the trails are opaque. 
+![Ghosts Screenshot](Screenshot%202025-12-05%20at%2018.00.32.png)_
+
 # Updates to Prototype / Making final app
 
 At this final stage, the system shifts from treating motion as a binary, all-or-nothing event to treating it as a graded, time-weighted phenomenon. Now each past frame contributes proportionally less the further back in time it is, creating a decaying memory gradient rather than a static imprint.
