@@ -103,16 +103,6 @@ This keeps the entire pipeline in OpenCV/NumPy and avoids the latency of mixing 
 To produce a stable video output, the system enforces several constraints inside the main encoding loop. First, the output dimensions are fixed (out_w = GRID_W * TILE_W, out_h = GRID_H * TILE_H) so every frame has the exact same resolution required by the video codec. Next, OpenCV’s VideoWriter is configured with the input frame rate (fps = cap.get(... )) for consistency across thousands of generated frames. After the mosaic is assembled in RGB space, it must be converted back into BGR using cv2.cvtColor(mosaic, cv2.COLOR_RGB2BGR) because OpenCV’s encoder expects BGR pixel order. Finally, each completed frame is pushed into the writer via writer.write(...), guaranteeing that the tile-based reconstruction remains synchronized, evenly sized, and codec-compatible throughout the entire video sequence.
 
 ```python
-import cv2, glob, os
-import numpy as np
-
-INPUT_VIDEO  = "/path/to/in.mp4"
-OUTPUT_VIDEO = "mosaic_simple.mp4"
-DATASET_DIR  = "/path/to/tiles"
-
-GRID_W, GRID_H = 64, 32
-TILE_W, TILE_H = 16, 16
-
 # Load dataset
 def list_images(folder):
     exts = ("*.jpg","*.jpeg","*.png","*.bmp","*.webp")
@@ -174,10 +164,6 @@ while True:
             mosaic[oy:oy+TILE_H, ox:ox+TILE_W] = tiles[best[y,x]]
 
     writer.write(cv2.cvtColor(mosaic, cv2.COLOR_RGB2BGR))
-
-cap.release()
-writer.release()
-print("Saved:", OUTPUT_VIDEO)
 ```
 
 
