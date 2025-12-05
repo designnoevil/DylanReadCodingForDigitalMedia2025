@@ -105,6 +105,8 @@ I locked the canvas size (960×540) to keep a predictable pixel budget and laten
 
 In the video you see a binary filter that shows a comparison of the difference in light value of the curent frame when compared to the snapshot taken at app start up. Understand what this is helps us use the app for performance/interactiviy later on, as we know that changing the lighting of the backgrabd compared to the subject when using the camra with yeialed difrent resolts. In the video you can see how my hand which is light at snapshot becomes dark when compared to something lighter at snapshot, like the wind behind me.
 
+![Screenshot](Screenshot%202025-12-05%20at%2014.53.17.png)
+
 # Mid
 
 ## Adding a Moving-Average Background Model
