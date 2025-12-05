@@ -158,7 +158,7 @@ def draw_text(message: str, pos: Tuple[int, int], colour: Tuple[int, int, int] =
 
 All interface text — such as “SEQUENCE STORE”, “CLICK STEPS OR TAP TEMPO”, and button labels like “START” or “TAP TEMPO” — is rendered using this method. There’s also a `measure_text()` function that calculates width and height in pixels, used for layout and centring.
 
-As you can see in the code this is a lot of repetitive but slimly difrent code to write, so it seemed like the perfect use for the AI intern, so I asked chatGPT to give me the full text handling code block for all letters.
+As you can see in the code this is a lot of repetitive but slightly difrent code to write, so it seemed like the perfect use for the AI intern, so I asked chatGPT to give me the full text handling code block for all letters.
 
 # Tap-to-Tempo button
 The app uses a tap-to-tempo feature; this choice came from both practical and conceptual considerations.
