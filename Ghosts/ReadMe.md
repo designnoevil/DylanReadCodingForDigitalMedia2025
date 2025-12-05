@@ -153,6 +153,9 @@ Only meaningful changes exceed the threshold and appear as white shapes.
 If an object stops moving, it gradually fades into black as the EMA incorporates it into the background model.  
 Sudden illumination shifts briefly cause white regions, but the EMA quickly adapts and returns to a stable mask.
 
+In the image below you can see the slight trail of wight next to one side of my head while i move my head around. 
+![Ghosts Screenshot](Screenshot%202025-12-05%20at%2015.16.53.png)
+
 
 # Adding Ring buffer and 1st prototype
 
