@@ -292,9 +292,11 @@ With these changes, the system produces a noticeably different aesthetic:
 - Motion feels smoother because the weighted accumulation bridges frame-to-frame gaps.  
 - The camera feed remains visible under the ghosts, giving a layered sense of depth and of the memory of the subject mixing with the space to become one.
 
+
+In the image you see the ghost of me walkign through a room, i found that using a mirrow adds a fun layer to the efect. 
 ![Ghosts Screenshot](Screenshot%202025-12-05%20at%2015.10.06.png)
 
-![Ghosts Final Video](GhostsFinalVid%281%29.mp4)
+Te video of me walking through a room with the camra facing a mirrow as seen in the image above too. ![Ghosts Final Video](GhostsFinalVid%281%29.mp4)
 
 
 # Conclusions and reflections
