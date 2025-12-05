@@ -208,7 +208,7 @@ This integration ensures that the timing display, audio logic, and user control 
 
 
 
-![](Screenshot&2025-12-05&at&13.38.59.png)
+![](Screenshot%202025-12-05%20at%2013.38.59.png)
 
 
 # Reflection on Sequencing
