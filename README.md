@@ -205,6 +205,11 @@ draw_text(f"BPM {bpm}", (GRID_LEFT, bpm_y), colour=(180, 180, 180), scale=2)
 
 This integration ensures that the timing display, audio logic, and user control are linked and update in real time.
 
+
+
+![](Screenshot&2025-12-05&at&13.38.59.png)
+
+
 # Reflection on Sequencing
 The sequencer shows how symbolic repetition becomes musical meaning. This both supports and critiques the reading’s thesis simultaneously: yes, repetition creates musicality—but not through magic or perceptual illusion. It emerges because structured repetition is designed to be interpreted that way.
 
