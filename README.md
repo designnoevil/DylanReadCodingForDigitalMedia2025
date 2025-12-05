@@ -1,9 +1,11 @@
 # DylanReadCodingForDigitalMedia2025
 
 # Overview
-This project explores the Week 3 theme of sequencing. I decided to build a mini drum pad sequencing machine. It functions both as: an implementation of symbolic data, iterative structures, time-based execution, and as a response to that week reading’s claim that “repetition becomes music”. Through code, the project demonstrates how rhythmic structure emerges automatically when discrete symbolic instructions are looped over time, and how obvious and reductive the authors experiment was. (Find name of author) (write more art waffle bout the dumb experiment)
+This project explores the Week 3 theme of sequencing. I decided to build a mini drum pad sequencing machine. It functions both as: an implementation of symbolic data, iterative structures, time-based execution, and as a response to the reading by **Elizabeth Hellmuth Margulis and Rhimmon Simchy-Gross (2016)** and their claim that “repetition becomes music.” Through code, the project demonstrates how rhythmic structure emerges automatically when discrete symbolic instructions are looped over time, and how obvious and reductive the authors’ experimental design seemed to me as a practitioner working directly with algorithmic sequencing.  
 
-I had already build a bigger drum machine in JS that allowed for saving of patterns, changing of page time signature, multiple pages, and other fun, like uploading custom sounds. So I already had a plan, build the grid, add the sounds, connect the triggered buttons to sound playback, and add user labels. The 1st issue was I knew Dorothy was’t the best for handling mouse clicks so I asked Louis and he said its best to do coordinate capturing. 
+Margulis and Simchy-Gross argue that looping even random tone sequences increases their perceived musicality. This project explores that premise in a more explicit, technical way: by exposing every element of the timing, data structure, and symbolic repetition. Whereas their experiment operates at a perceptual and psychological level, my system builds musicality through transparent mechanisms—grid structure, temporal quantisation, symbolic scheduling—showing how musical impressions emerge from design rather than cognitive mystery.
+
+I had already built a bigger drum machine in JS that allowed for saving of patterns, changing of page time signatures, multiple pages, and other fun features like uploading custom sounds. So I already had a plan: build the grid, add the sounds, connect triggered buttons to sound playback, and add user labels. The first issue was that I knew Dorothy wasn’t the best for handling mouse clicks, so I asked Louis and he said it was best to do coordinate capturing.
 
 # Mouse capturing
 Dorothy does not implement an event-driven input model. Instead, it exposes mouse state via a set of global attributes that reflect the current frame’s input status; such as:  
@@ -202,10 +204,13 @@ draw_text(f"BPM {bpm}", (GRID_LEFT, bpm_y), colour=(180, 180, 180), scale=2)
 This integration ensures that the timing display, audio logic, and user control are linked and update in real time.
 
 # Reflection on Sequencing
-The sequencer shows how symbolic repetition becomes musical meaning. Rather than treating rhythmicity as perceptual emergence. This supports and critiques the reading’s thesis simultaneously: yes, repetition creates musicality—but not through magic or mystery. It emerges because structured repetition is designed to be interpreted that way. Music without a patten is jazz, repetition creates patterns and 
+The sequencer shows how symbolic repetition becomes musical meaning. This both supports and critiques the reading’s thesis simultaneously: yes, repetition creates musicality—but not through magic or perceptual illusion. It emerges because structured repetition is designed to be interpreted that way.
 
-Margulis and Simchy-Gross (2016) argued that looping random tone sequences increases their perceived musicality. This project recreates the same perceptual effect, but makes the underlying mechanism explicit. The loop isn’t just aesthetic; it’s a timing scaffold that imposes coherence on otherwise arbitrary data.
+Margulis and Simchy-Gross (2016) argue that looping random tones increases perceived musicality. My system demonstrates the same mechanism, but in a computationally transparent way. Rather than relying on participant perception alone, this project reveals the scaffolding: timing, structure, symbolic states, and metric alignment. Musicality is not merely discovered; it is constructed.
 
-However, the reading’s claim to generality is methodologically narrow. It tests culturally specific assumptions (Western, tonal, metric repetition) on a homogenous group (American undergraduates) and presents the outcome as universal.
+Their work hinges on perceptual psychology; mine shows that these perceptual effects can be reenacted through explicit symbolic systems.
 
-In contrast, this project shows that musicality is not discovered—it is intrinsic. By controlling timing, structure, and symbol interpretation, the sequencer performs the transformation the study describes, but without mystifying it.
+
+# References
+
+Margulis, E.H. & Simchy-Gross, R. (2016). *Repetition enhances the musicality of randomly generated tone sequences.* Music Perception: An Interdisciplinary Journal, 33(4), pp.509–514. doi:10.1525/mp.2016.33.4.509.
