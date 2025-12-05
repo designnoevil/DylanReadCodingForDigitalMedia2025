@@ -286,7 +286,7 @@ With these changes, the system produces a noticeably different aesthetic:
 - Motion feels smoother because the weighted accumulation bridges frame-to-frame gaps.  
 - The camera feed remains visible under the ghosts, giving a layered sense of depth and of the memory of the subject mixing with the space to become one.
 
-
+![Ghosts Final Video](GhostsFinalVid%281%29.mp4)
 # Conclusions and reflections
 
 The system performs well at communicating my intention: turning motion into a lingering residue.  
