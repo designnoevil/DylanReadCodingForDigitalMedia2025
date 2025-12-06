@@ -252,9 +252,18 @@ new_tile = random.choice(choices) if choices else tk[0]
 
 By selecting from a small set of nearest neighbours rather than the absolute best match, the system introduces variation into stable regions while avoiding chaotic flickering. This creates a mosaic that evolves subtly over time, even when parts of the scene remain roughly the same colour.
 
+In this video you can see a much more stable, non twiching video. Also notice the lack of data blocks where the same colours are repeating the same image tile. This makes for a much more readable video while still embeding the data from the images in the video: 
 [![final mosaic video](https://img.youtube.com/vi/SzB06SICfe8/maxresdefault.jpg)](https://www.youtube.com/watch?v=SzB06SICfe8)
 
 
+In this video you see the effects we can create with the tile cooldown function. The function was originally used to help stabilise the video, but if pushed to a more aggressive value it creates its own trail-memory effect.
+[![Watch on YouTube](https://img.youtube.com/vi/usaoD4HNqfE/maxresdefault.jpg)](https://www.youtube.com/watch?v=usaoD4HNqfE)
+
+In this video you see the use of no tile cool down timer. 
+[![Watch on YouTube](https://img.youtube.com/vi/qXGXfKK2Xb0/maxresdefault.jpg)](https://www.youtube.com/watch?v=qXGXfKK2Xb0)
+
+This is the same as the prevouse video but with the cool down timer set inline with frame rate of the origonal video, leading to a shilled background and a capturing of movment in its place.
+[![Watch on YouTube](https://img.youtube.com/vi/6kUFOrU2RWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=6kUFOrU2RWs)
 
 # SnapShot Video Mosaic
 
