@@ -76,7 +76,7 @@ mosaic.save(OUTPUT_IMAGE)
 print("Saved high-resolution mosaic:", OUTPUT_IMAGE)
 ```
 
-![image](RatMosaic2.png)
+![](/RatMosaic2.png)
 
 
 # Then turning that in to a video system:
