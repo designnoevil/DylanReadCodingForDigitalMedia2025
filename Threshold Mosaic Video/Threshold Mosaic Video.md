@@ -175,7 +175,7 @@ Basic best-match colour mapping also produces a different limitation: flat regio
 [Watch the video on YouTube](https://www.youtube.com/watch?v=0lgUnzSkyVw)
 
 
-![Video Screenshot](/Screenshot%202025-12-06%20at%2014.05.53.png)
+![Video Screenshot](Screenshot%202025-12-06%20at%2014.05.53.png)
 
 # Stability through thresholding   
 ## Colour threshold, Cooldown, and top K
