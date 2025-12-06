@@ -334,3 +334,5 @@ Where the stable algorithm continuously evaluates frame-to-frame ΔE in LAB spac
 The result is a more intentional, progressive form of image transformation, where visual change unfolds in structured waves tied to the rhythm of the snapshot interval.
 
 The snapshot-driven system transforms the mosaic into a temporally chunked process. Where the stable algorithm continuously evaluates frame-to-frame delta in LAB colour space, this design periodically freezes the reference, enforces a single update per tile per window, and evaluates colour change against a temporally stable baseline. The result is a more intentional, progressive form of image transformation, where visual change unfolds in structured waves tied to the rhythm of the snapshot interval.
+
+[![Watch on YouTube](https://img.youtube.com/vi/bl6-KoTTQKA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bl6-KoTTQKA)
