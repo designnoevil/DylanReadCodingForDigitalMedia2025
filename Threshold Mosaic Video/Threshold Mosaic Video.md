@@ -252,6 +252,9 @@ new_tile = random.choice(choices) if choices else tk[0]
 
 By selecting from a small set of nearest neighbours rather than the absolute best match, the system introduces variation into stable regions while avoiding chaotic flickering. This creates a mosaic that evolves subtly over time, even when parts of the scene remain roughly the same colour.
 
+[![final mosaic video](https://img.youtube.com/vi/SzB06SICfe8/maxresdefault.jpg)](https://www.youtube.com/watch?v=SzB06SICfe8)
+
+
 
 # SnapShot Video Mosaic
 
