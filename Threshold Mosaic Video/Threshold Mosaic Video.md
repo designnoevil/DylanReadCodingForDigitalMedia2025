@@ -170,11 +170,15 @@ while True:
 
 The normal video mosaic behaves in a twitchy, almost classic tv static signal way, even in areas of the footage that should be visually stable. For example, the plain white side of a van causes tiles to flicker constantly, not because the scene is changing, but because tiny frame-to-frame variations in lighting trigger different best-match tiles from the dataset. The result feels digitally noisy rather than artistically intentional. This continual flicker also overloads the viewer’s perceptual system: the brain must process both the high-density information inside each tile and the rapid pattern changes across the grid simultaneously, leaving little room for deeper meaning to settle.
 
-Basic best-match colour mapping also produces a different limitation: flat regions of similar colour—for instance, the brown of someone’s trousers—collapse into a single repeatedly selected dataset tile. Large objects become monotonous blocks of the same repeated image, which adds little expressive value to the scene. In contrast, a system that deliberately controls when tiles are allowed to change—keeping still regions stable while introducing subtle variation in broad colour areas—creates a more balanced aesthetic. It becomes less visually chaotic but also more alive, replacing digital twitch with intentional pacing and allowing the viewer’s attention to rest and roam in more meaningful ways.
+Basic best-match colour mapping also produces a different limitation: flat regions of similar colour—for instance, the brown of someone’s trousers, the white side of a van, collapse into a single repeatedly selected dataset tile. Large objects become monotonous blocks of the same repeated image, which adds little expressive value to the scene. In contrast, a system that deliberately controls when tiles are allowed to change—keeping still regions stable while introducing subtle variation in broad colour areas—creates a more balanced aesthetic. It becomes less visually chaotic but also more alive, replacing digital twitch with intentional pacing and allowing the viewer’s attention to rest and roam in more meaningful ways.
 
+[Watch the video on YouTube](https://www.youtube.com/watch?v=0lgUnzSkyVw)
+
+
+![Video Screenshot](/Screenshot%202025-12-06%20at%2014.05.53.png)
 
 # Stability through thresholding   
-## Colour threshold + Cooldown + top K
+## Colour threshold, Cooldown, and top K
 
 The enhanced mosaic generator extends the behaviour of the simpler version by introducing two new stabilising mechanisms: colour-difference thresholding and a per-tile cooldown timer. These additions fundamentally change how and when tiles update, producing a more controlled, less chaotic mosaic compared to the fully reactive approach used previously.
 
