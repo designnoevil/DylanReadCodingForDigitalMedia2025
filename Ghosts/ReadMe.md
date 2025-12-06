@@ -311,11 +311,7 @@ Skin against skin, dark fabric against dark backgrounds, or rapid exposure chang
 Thinking through these issues forced me to understand how computer vision actually sees the world:  
 **not as objects, but as fluctuating brightness values over time.**
 
-Almost every improvement —  
-- adding EMA,  
-- adding the ring buffer,  
-- adding decay,  
-- adding median filtering —  
+Almost every improvement: adding EMA, adding the ring buffer, adding decay, adding median filtering  
 
 was about **shaping that ambiguity rather than eliminating it**.
 
