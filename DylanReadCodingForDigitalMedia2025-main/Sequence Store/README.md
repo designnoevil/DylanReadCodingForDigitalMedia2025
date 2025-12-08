@@ -208,7 +208,7 @@ This integration ensures that the timing display, audio logic, and user control 
 
 ![](Screenshot%202025-12-05%20at%2013.38.59.png)
 
-![demo](/Week3/FinalVid.mp4)
+![Final Sequence Store Demo](FinalVid.gif)
 
 # Reflection on Sequencing
 The sequencer shows how symbolic repetition becomes musical meaning. This both supports and critiques the reading’s thesis simultaneously: yes, repetition creates musicality—but not through magic or perceptual illusion. It emerges because structured repetition is designed to be interpreted that way.
