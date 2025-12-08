@@ -64,7 +64,8 @@ mask_rgb = np.dstack([mask, mask, mask])
 
 I fixed the canvas size (960×540) to maintain predictable performance—echoing Week 7’s reminder that reliability in an interactive system often outweighs ideal architectural design. A stable feed supports the conceptual work more than perfect resolution.
 
-The thresholded mask becomes a live, binary comparison between the body and the room’s initial state. It already behaves like a primitive memory: your hand may appear bright over a dark background but disappear against a brighter area, depending on the stored snapshot.
+The thresholded mask becomes a live, binary comparison between the body and the room’s initial state. 
+![Ghosts Screenshot](Screenshot%202025-12-05%20at%2014.53.17.png)
 
 ⸻
 
