@@ -227,8 +227,8 @@ The effect is more intentional and progressive, Change arrives in waves, not fli
 
 The result has a distinctive, almost cinematic quality:
 
-Snapshot Mosaic Video:
-https://www.youtube.com/watch?v=bl6-KoTTQKA
+Snapshot Mosaic Video
+[![Snapshot Mosaic Video](https://img.youtube.com/vi/bl6-KoTTQKA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bl6-KoTTQKA)
 
 ⸻
 
