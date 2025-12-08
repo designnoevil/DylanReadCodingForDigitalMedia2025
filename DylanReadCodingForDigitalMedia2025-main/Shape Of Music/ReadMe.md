@@ -349,7 +349,7 @@ The project draws from the idea that sound is motion. By translating sound into 
 In musique concrète, recorded fragments are manipulated physically: cut, spliced, reversed, stretched. The body’s movement becomes part of the sound. In my system, sound becomes the mover. Its acceleration becomes rotation. Its loudness becomes breath. Its energy divides into five overlapping motions. The trails bake inertia into movements.
 
 The shape of music.
-
+![Five Shapes Demo](5%20shapes.gif)
 ---
 
 ## References
