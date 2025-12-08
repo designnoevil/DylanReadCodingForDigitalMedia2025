@@ -40,8 +40,7 @@ The naive video mosaic flickers heavily. Flat areas, such as the white side of a
 
 Large regions of similar colour also collapse into repeatedly chosen tiles, making big objects visually monotonous. Allowing tiles to remain stable in still regions, while introducing controlled variation elsewhere, produces a more readable and expressive mosaic. Instead of chaotic twitching, the system gains pacing and rhythm.
 
-Final mosaic video:
-https://www.youtube.com/watch?v=0lgUnzSkyVw
+[![basic mosaic video](https://img.youtube.com/vi/0lgUnzSkyVw/hqdefault.jpg)](https://www.youtube.com/watch?v=0lgUnzSkyVw)
 
 ## Stability Through Thresholding
 
