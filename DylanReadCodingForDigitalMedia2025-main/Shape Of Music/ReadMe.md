@@ -114,7 +114,7 @@ draw_polygon(int(points), angle)
 The prototype produces a single rotating polygon that expands and contracts with spectral energy.
 
 
-![Shape of Music Demo](Shape%20Of%20Music/Untitled.gif)
+![Shape of Music Demo](Untitled.gif)
 
 ---
 
