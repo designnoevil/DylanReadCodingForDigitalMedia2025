@@ -214,7 +214,7 @@ It also feels spatially richer: the background remains visible, the ghosts hover
 A still from this phase shows how walking through a room produces a layered apparition; a mirror multiplies these traces in interesting ways:
 
 And the final video demonstrates the system operating:
-
+<img src="Screenshot 2025-12-05 at 15.10.06.png" width="700">
 ⸻
 
 ## CONCLUSIONS AND REFLECTIONS
