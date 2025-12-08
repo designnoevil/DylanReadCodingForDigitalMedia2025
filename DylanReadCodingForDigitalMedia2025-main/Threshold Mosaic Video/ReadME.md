@@ -113,17 +113,13 @@ These mechanisms — thresholding, cooldown, and top-K — collectively remove t
 
 Videos showing behaviour:
 
-Stable & clean version:
-https://www.youtube.com/watch?v=SzB06SICfe8
+[![Stable & clean version](https://img.youtube.com/vi/SzB06SICfe8/maxresdefault.jpg)](https://www.youtube.com/watch?v=SzB06SICfe8)
 
-Cooldown pushed for trails:
-https://www.youtube.com/watch?v=usaoD4HNqfE
+[![Cooldown pushed for trails](https://img.youtube.com/vi/usaoD4HNqfE/maxresdefault.jpg)](https://www.youtube.com/watch?v=usaoD4HNqfE)
 
-No cooldown / hyper reactive:
-https://www.youtube.com/watch?v=qXGXfKK2Xb0
+[![No cooldown / hyper reactive](https://img.youtube.com/vi/qXGXfKK2Xb0/maxresdefault.jpg)](https://www.youtube.com/watch?v=qXGXfKK2Xb0)
 
-Cooldown ≈ framerate (freeze background):
-https://www.youtube.com/watch?v=6kUFOrU2RWs
+[![Cooldown ≈ framerate (freeze background)](https://img.youtube.com/vi/6kUFOrU2RWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=6kUFOrU2RWs)
 
 
 
