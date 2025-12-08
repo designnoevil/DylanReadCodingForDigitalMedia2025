@@ -40,7 +40,7 @@ The naive video mosaic flickers heavily. Flat areas, such as the white side of a
 
 Large regions of similar colour also collapse into repeatedly chosen tiles, making big objects visually monotonous. Allowing tiles to remain stable in still regions, while introducing controlled variation elsewhere, produces a more readable and expressive mosaic. Instead of chaotic twitching, the system gains pacing and rhythm.
 
-[![basic mosaic video](https://img.youtube.com/vi/0lgUnzSkyVw/hqdefault.jpg)](https://www.youtube.com/watch?v=0lgUnzSkyVw)
+[![Basic mosaic video](https://img.youtube.com/vi/0lgUnzSkyVw/maxresdefault.jpg)](https://www.youtube.com/watch?v=0lgUnzSkyVw)
 
 ## Stability Through Thresholding
 
@@ -113,12 +113,16 @@ These mechanisms — thresholding, cooldown, and top-K — collectively remove t
 
 Videos showing behaviour:
 
+Stable & clean version
 [![Stable & clean version](https://img.youtube.com/vi/SzB06SICfe8/maxresdefault.jpg)](https://www.youtube.com/watch?v=SzB06SICfe8)
 
+Cooldown pushed for trails
 [![Cooldown pushed for trails](https://img.youtube.com/vi/usaoD4HNqfE/maxresdefault.jpg)](https://www.youtube.com/watch?v=usaoD4HNqfE)
 
+[No cooldown / hyper reactive
 [![No cooldown / hyper reactive](https://img.youtube.com/vi/qXGXfKK2Xb0/maxresdefault.jpg)](https://www.youtube.com/watch?v=qXGXfKK2Xb0)
 
+Cooldown ≈ framerate gives freeze 
 [![Cooldown ≈ framerate (freeze background)](https://img.youtube.com/vi/6kUFOrU2RWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=6kUFOrU2RWs)
 
 
