@@ -298,8 +298,10 @@ Hue shifts create slow colour motion; brightness responds to volume.
 dot.fill((0, 0, 0, TRAIL_ALPHA))
 dot.rectangle((0, 0), (dot.width, dot.height))
 ```
+This draws a semi-transparent black layer over the entire canvas every frame.
+Because the layer is not fully opaque, it darkens the previous frame rather than erasing it. Older drawings fade gradually, while new polygons are drawn at full brightness.
 
-Applied to all polygons, this reinforces the theme of movement leaving traces.
+Applied to all polygons, this reinforces the momentum of movement.
 
 ---
 
@@ -312,7 +314,7 @@ count = 2 if signal < LINE_THRESH else max(2, int(round(state["points"])))
 
 When energy is low, the polygon collapses into a line aligned to its rotation angle.
 When energy rises, the polygon reconstructs itself.
-This emerged accidentally but became central.
+This emerged accidentally with playing around but became central.
 
 ---
 
