@@ -217,7 +217,7 @@ A still from this phase shows how walking through a room produces a layered appa
 
 And the final video demonstrates the system operating:
 
-<video src="Ghosts/GhostsFinalVid(1).mp4" width="700" controls></video>
+<video src="GhostsFinalVid(1).mp4" width="700" controls></video>
 
 ⸻
 
