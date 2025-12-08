@@ -354,6 +354,7 @@ The shape of music.
 ![Five Shapes Demo](5%20shapes.gif)
 
 The trails trails are not that noticable on the gif, so heres a video. 
+[![Ghosts – video thumbnail](path/to/thumbnail.jpg)](https://www.youtube.com/watch?v=SiqGvRQfKkk)
 ---
 
 ## References
