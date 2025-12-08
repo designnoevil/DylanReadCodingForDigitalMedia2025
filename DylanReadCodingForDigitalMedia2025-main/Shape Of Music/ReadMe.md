@@ -353,7 +353,6 @@ In musique concrète, recorded fragments are manipulated physically: cut, splice
 The shape of music.
 ![Five Shapes Demo](5%20shapes.gif)
 
-The trails are not that noticable on the gif, so heres a video. 
 [demo video](https://www.youtube.com/watch?v=SiqGvRQfKkk)
 ---
 
