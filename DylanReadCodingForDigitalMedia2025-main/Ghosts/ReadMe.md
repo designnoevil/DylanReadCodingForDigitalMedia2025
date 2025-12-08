@@ -54,7 +54,7 @@ gray = cv2.cvtColor(diff, cv2.COLOR_RGB2GRAY)
 _, mask = cv2.threshold(gray, 100, 255, cv2.THRESH_BINARY)
 ```
 
-Pixels that differ enough turn white; stable pixels remain black. Because this comparison depends entirely on brightness relative to the stored snapshot, objects can appear inconsistently white or black depending on the lighting at startup. This is part of the system’s behaviour: it reveals difference, not object identity.
+Pixels that differ enough turn white; stable pixels remain black. Because this comparison depends entirely on brightness relative to the stored snapshot, objects can appear inconsistently white or black depending on the lighting at startup. This is part of the system’s behaviour: it reveals difference.
 
 Dorothy expects three-channel images, so the mask is expanded:
 
@@ -67,6 +67,7 @@ I fixed the canvas size (960×540) to maintain predictable performance—echoing
 The thresholded mask becomes a live, binary comparison between the body and the room’s initial state. 
 ![Ghosts Screenshot](Screenshot%202025-12-05%20at%2014.53.17.png)
 
+Because this comparison is purely based on brightness differences, my hand is treated differently depending on what part of the background it is covering. Against the darker interior of the room from the snapshot, my hand appears bright; against the brighter window from the snapshot, it appears dark. due to the bianry being this or that, The result is an outline of my hand with the original snapshot imagery (the trees outside the window) showing through inside its silhouette. This happens because, wherever the hand is similar in brightness to the stored background, the system simply reuses the snapshot pixels instead of marking them as different.
 ⸻
 
 ## MID
