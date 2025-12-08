@@ -5,6 +5,8 @@ Margulis and Simchy-Gross argue that looping even random tone sequences increase
 
 I had already built a bigger drum machine in JS that allowed for saving of patterns, changing of page time signatures, multiple pages, and other fun features like uploading custom sounds. So I already had a plan: build the grid, add the sounds, connect triggered buttons to sound playback, and add user labels. The first issue was that I knew Dorothy wasn’t the best for handling mouse clicks, so I asked Louis and he said it was best to do coordinate capturing.
 
+
+Image of my JS version im basing this off. 
 ![Sequence Store Screenshot](Screenshot%202025-11-08%20at%2019.30.30.png)
 
 # Mouse capturing
