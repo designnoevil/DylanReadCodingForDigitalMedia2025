@@ -69,6 +69,8 @@ This immediately reduced much of the chaotic flicker: changes were now connected
 
 Motion detection improved stability, but it created a new problem: when an object moved, some of the tiles it had flipped were left behind—little bits of car or patches of trouser colour floating oddly in an otherwise normal scene.
 
+[![YouTube Video](https://img.youtube.com/vi/AZMRpFjZsZs/maxresdefault.jpg)](https://www.youtube.com/watch?v=AZMRpFjZsZs)
+
 Motion created meaningful change, but nothing told the system when to undo that change if it didn’t meet its own threshold.
 
 I thought the system needed colour-difference thresholding to clean up the scene once movement had passed. Motion would trigger updates; colour difference would restore any trails back to a closer fit with the updating background.
