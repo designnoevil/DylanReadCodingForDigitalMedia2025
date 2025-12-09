@@ -129,7 +129,7 @@ def draw_grid(current_step: int) -> None:
 This function is called inside the main `draw()` loop, displaying updates every frame based on the latest state of the grid and sequencer. The result is a live visual representation of what the user hears. Each step is highlighted as the playhead moves across them. The grid and the sound logic are always in sync: the visual playhead highlights the same step that the audio engine is checking in the background. This keeps the timing easy to understand for the user while also providing a good vies test of a working system.
 
 
-![](Screenshot%202025-12-05%20at%2013.11.38.png)
+![](basic.png)
 
 # More UI… Text, and tap to tempo  
 
@@ -210,7 +210,7 @@ This integration ensures that the timing display, audio logic, and user control 
 
 
 
-![](Screenshot%202025-12-05%20at%2013.38.59.png)
+![](final.png)
 
 ![Final Sequence Store Demo](FinalVid.gif)
 
