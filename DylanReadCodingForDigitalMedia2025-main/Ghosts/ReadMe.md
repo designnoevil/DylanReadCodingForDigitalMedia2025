@@ -5,7 +5,7 @@ Having studied cabinetry and blacksmithing for three years, then a BA in product
 In my undergraduate years, and throughout my subsequent career, I’ve often had to map spaces for how a person moves through them. When people leave a space, the objects they touch, the wear that gathers in particular spots, and the space itself—the layout, the décor, the areas of differing wear, all keep a of memory of people.
 
 The image below is a map of my daily use of the apartment I lived in during my second year of undergrad. It shows a memory of my passage through 3D spaces, a re-projection of the time dimension that’s usually lost in a single photo. 
-![Ghosts Screenshot](Screenshot%202025-12-05%20at%2014.48.56.png)
+![](Screenshot%202025-12-05%20at%2014.48.56.png)
 
 In reflecting on Making an Interactive Dance Piece: Tensions in Integrating Technology in Art, I set out to make a piece with a quieter, deeper argument about how people and technology co-produce meaning. As we move through rooms, we inscribe memory into objects, surfaces, and arrangements; spaces carry a residue of use. By visualising motion as a live, camera-driven “ghost,” I try to reveal that residue—an added temporal layer draped over ordinary three-dimensional space. The work asks two questions: does memory belong to the room itself, or to the observer who reads it there? And as in architecture where we design for others who use the spaces, is memory ever anything but relational, made between bodies, tools, and place?
 
@@ -65,7 +65,8 @@ mask_rgb = np.dstack([mask, mask, mask])
 I fixed the canvas size (960×540) to maintain predictable performance—echoing Week 7’s reminder that reliability in an interactive system often outweighs ideal architectural design. A stable feed supports the conceptual work more than perfect resolution.
 
 The thresholded mask becomes a live, binary comparison between the body and the room’s initial state. 
-![Ghosts Screenshot](binay%compaire.png)
+
+![](DylanReadCodingForDigitalMedia2025-main/Ghosts/binay%20compaire.png)
 
 Because this comparison is purely based on brightness differences, my hand is treated differently depending on what part of the background it is covering. Against the darker interior of the room from the snapshot, my hand appears bright; against the brighter window from the snapshot, it appears dark. due to the bianry being this or that, The result is an outline of my hand with the original snapshot imagery (the trees outside the window) showing through inside its silhouette. This happens because, wherever the hand is similar in brightness to the stored background, the system simply reuses the snapshot pixels instead of marking them as different.
 ⸻
