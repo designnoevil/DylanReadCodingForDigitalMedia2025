@@ -66,7 +66,8 @@ I fixed the canvas size (960×540) to maintain predictable performance—echoing
 
 The thresholded mask becomes a live, binary comparison between the body and the room’s initial state. 
 
-![](DylanReadCodingForDigitalMedia2025-main/Ghosts/binay%20compaire.png)
+![Screenshot ](binay%compaire.png)
+
 
 Because this comparison is purely based on brightness differences, my hand is treated differently depending on what part of the background it is covering. Against the darker interior of the room from the snapshot, my hand appears bright; against the brighter window from the snapshot, it appears dark. due to the bianry being this or that, The result is an outline of my hand with the original snapshot imagery (the trees outside the window) showing through inside its silhouette. This happens because, wherever the hand is similar in brightness to the stored background, the system simply reuses the snapshot pixels instead of marking them as different.
 ⸻
