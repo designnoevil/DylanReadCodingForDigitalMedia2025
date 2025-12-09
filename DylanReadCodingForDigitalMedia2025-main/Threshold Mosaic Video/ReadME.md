@@ -290,6 +290,8 @@ The effect is more intentional and progressive — change arrives in waves, not 
 Motion has weight and direction.
 Tile updates feel choreographed rather than chaotic.
 
+[![Snapshot Mosaic Video](https://img.youtube.com/vi/bl6-KoTTQKA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bl6-KoTTQKA)
+
 ⸻
 
 ## Motion-Only Video
