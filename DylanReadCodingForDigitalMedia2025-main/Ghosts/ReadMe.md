@@ -65,7 +65,7 @@ mask_rgb = np.dstack([mask, mask, mask])
 I fixed the canvas size (960×540) to maintain predictable performance—echoing Week 7’s reminder that reliability in an interactive system often outweighs ideal architectural design. A stable feed supports the conceptual work more than perfect resolution.
 
 The thresholded mask becomes a live, binary comparison between the body and the room’s initial state. 
-![Ghosts Screenshot](Screenshot%202025-12-05%20at%2014.53.17.png)
+![Ghosts Screenshot](binay%compaire.png)
 
 Because this comparison is purely based on brightness differences, my hand is treated differently depending on what part of the background it is covering. Against the darker interior of the room from the snapshot, my hand appears bright; against the brighter window from the snapshot, it appears dark. due to the bianry being this or that, The result is an outline of my hand with the original snapshot imagery (the trees outside the window) showing through inside its silhouette. This happens because, wherever the hand is similar in brightness to the stored background, the system simply reuses the snapshot pixels instead of marking them as different.
 ⸻
@@ -106,7 +106,10 @@ The median blur removes isolated noise pixels, giving the mask a more intentiona
 This simple temporal smoothing changes the character of the system. The background becomes a kind of temporal surface—a slowly adapting memory of what the room “should” look like. When the EMA settles, only meaningful motion registers as white, and stillness gradually disappears back into black.
 
 You can see this in the slight white trail beside my head in the frame below, where the system briefly remembers my previous position before the background model absorbs it:
-![Screenshot ](Screenshot%202025-12-05%20at%2015.16.53.png)
+
+![Screenshot ](whiteout.png)
+
+
 ⸻
 
 ## ADDING RING BUFFER & FIRST PROTOTYPE
