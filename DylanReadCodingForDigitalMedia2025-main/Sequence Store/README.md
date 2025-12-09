@@ -7,7 +7,7 @@ I had already built a bigger drum machine in JS that allowed for saving of patte
 
 
 Image of my JS version im basing this off. 
-![Sequence Store Screenshot](Screenshot%202025-11-08%20at%2019.30.30.png)
+![Sequence Store Screenshot](OG.png)
 
 # Mouse capturing
 Dorothy does not implement an event-driven input model. Instead, it exposes mouse state via a set of global attributes that reflect the current frame’s input status; such as:  
