@@ -219,6 +219,7 @@ And the final video demonstrates the system operating:
 
 <video src="GhostsFinalVid(1).mp4" width="700" controls></video>
 
+[![Ghosts – final video](Ghosts/GhostsThumb.png)](Ghosts/GhostsFinalVid(1).mp4)
 
 ⸻
 
