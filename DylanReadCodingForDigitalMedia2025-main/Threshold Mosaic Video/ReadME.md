@@ -34,7 +34,7 @@ To ensure stable video output, the system fixes output dimensions (required by t
 
 ⸻
 
-## Explaining instability in the basic video mosaic
+## instability in the basic video mosaic
 
 The naive video mosaic flickers heavily. Flat areas, such as the white side of a van, cause the system to oscillate between similar tiles because tiny lighting fluctuations shift the best LAB match. The result looks like digital noise rather than intentional motion. It also overwhelms the viewer: each tile contains detailed imagery, and rapid tile swapping forces the brain to re-interpret hundreds of micro-images every second.
 
