@@ -110,7 +110,7 @@ This simple temporal smoothing changes the character of the system. The backgrou
 
 You can see this in the slight white trail beside my head in the frame below, where the system briefly remembers my previous position before the background model absorbs it:
 
-![Screenshot ](whiteout.png)
+![](white%20trails.png)
 
 
 ⸻
@@ -162,7 +162,7 @@ The result has a certain bluntness—memory appears as a series of solid stamps.
 
 Below is a still from this stage, with opaque white ghosts overlaying the colour feed:
 
-![Screenshot 2025-12-05 at 18.00.32](Screenshot%202025-12-05%20at%2018.00.32.png)
+![Screenshot ](whiteout.png)
 
 ⸻
 
