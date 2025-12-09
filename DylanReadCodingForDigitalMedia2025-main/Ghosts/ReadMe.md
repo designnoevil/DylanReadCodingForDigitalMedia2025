@@ -105,8 +105,8 @@ The median blur removes isolated noise pixels, giving the mask a more intentiona
 
 This simple temporal smoothing changes the character of the system. The background becomes a kind of temporal surface—a slowly adapting memory of what the room “should” look like. When the EMA settles, only meaningful motion registers as white, and stillness gradually disappears back into black.
 
-You can see this in the slight glowing trail beside my head in the frame below, where the system briefly remembers my previous position before the background model absorbs it:
-
+You can see this in the slight white trail beside my head in the frame below, where the system briefly remembers my previous position before the background model absorbs it:
+![Screenshot ](Screenshot%202025-12-05%20at%2015.16.53.png)
 ⸻
 
 ## ADDING RING BUFFER & FIRST PROTOTYPE
