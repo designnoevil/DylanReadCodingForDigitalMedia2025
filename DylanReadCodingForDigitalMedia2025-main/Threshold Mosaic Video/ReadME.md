@@ -12,6 +12,8 @@ This creates layered meaning: the still tiles tell one story with their embedded
 
 The static mosaic works by shrinking the source image into a low-resolution grid, computing the average colour of each grid cell, and selecting the closest-matching dataset tile using Euclidean distance in RGB. This is computationally cheap and entirely adequate for a single image, where the colour comparison happens once and never needs to be updated.
 
+![](Threshold%20Mosaic%20Video/RatMosaic2.png)
+
 When expanding this idea to video, each frame needs a new set of tile matches. At 25–60 frames per second, RGB’s poor perceptual accuracy becomes a problem: colours that look similar to the eye may be numerically far apart, causing visible flicker frame-to-frame. To fix this, the video version converts both dataset tiles and frame samples into LAB colour space, where numerical distance aligns more closely with human perception. Matching accuracy becomes smoother and temporal flicker is reduced.
 
 The static system performs matching inside a Python loop. The video system replaces this with a vectorised NumPy operation that reshapes the frame grid into (H*W, 3) and computes all LAB distances at once via broadcasting. This is the main reason the system can run fast enough to reconstruct video.
