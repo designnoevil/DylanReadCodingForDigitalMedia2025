@@ -303,6 +303,8 @@ Because no colour comparison is involved, the results feel chaotic and impulsive
 
 This stripped-down version helped clarify what the motion detector was doing in the fuller system, and it showed how much visual structure comes from colour-based matching rather than motion alone. Also it looks cool.
 
+[![Watch on YouTube](https://img.youtube.com/vi/35wtsAjJGGc/maxresdefault.jpg)](https://www.youtube.com/watch?v=35wtsAjJGGc)
+
 ⸻
 
 ## Conclusion
