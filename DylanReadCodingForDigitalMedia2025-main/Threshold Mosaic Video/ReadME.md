@@ -1,6 +1,6 @@
 # Intro
 
-For film to read clearly, the eye needs anchors—regions of stillness against which motion becomes legible. A mosaic built from images holds far more information than the footage beneath it; each tile is its own small world. As Walter Benjamin wrote, “Every image is the bearer of a message.” But the viewer needs time to receive that message. If tiles changed every frame, their meaning would disappear before the nervous system could catch it.
+For film to read clearly, the eye needs anchors, regions of stillness against which motion becomes legible. A mosaic built from images holds far more information than the footage beneath it; each tile is its own small world. As Walter Benjamin wrote, “Every image is the bearer of a message.” But the viewer needs time to receive that message. If tiles changed every frame, their meaning would disappear before the nervous system could catch it.
 
 By keeping tiles fixed in still regions and only updating them when the video actually moves—rather than when tiny lighting variations occur—the system gives the viewer time to inhabit each fragment. Stillness becomes a place where attention rests; deliberate motion becomes a rupture that writes a second story over the first.
 
