@@ -156,6 +156,8 @@ The result has a certain bluntness—memory appears as a series of solid stamps.
 
 Below is a still from this stage, with opaque white ghosts overlaying the colour feed:
 
+![Screenshot 2025-12-05 at 18.00.32](Screenshot%202025-12-05%20at%2018.00.32.png)
+
 ⸻
 
 ## UPDATES TO PROTOTYPE / MAKING THE FINAL APP
