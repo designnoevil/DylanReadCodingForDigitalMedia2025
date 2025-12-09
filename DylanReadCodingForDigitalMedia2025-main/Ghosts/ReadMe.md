@@ -5,7 +5,8 @@ Having studied cabinetry and blacksmithing for three years, then a BA in product
 In my undergraduate years, and throughout my subsequent career, I’ve often had to map spaces for how a person moves through them. When people leave a space, the objects they touch, the wear that gathers in particular spots, and the space itself—the layout, the décor, the areas of differing wear, all keep a of memory of people.
 
 The image below is a map of my daily use of the apartment I lived in during my second year of undergrad. It shows a memory of my passage through 3D spaces, a re-projection of the time dimension that’s usually lost in a single photo. 
-![](Screenshot%202025-12-05%20at%2014.48.56.png)
+
+![](Floorplan.png)
 
 In reflecting on Making an Interactive Dance Piece: Tensions in Integrating Technology in Art, I set out to make a piece with a quieter, deeper argument about how people and technology co-produce meaning. As we move through rooms, we inscribe memory into objects, surfaces, and arrangements; spaces carry a residue of use. By visualising motion as a live, camera-driven “ghost,” I try to reveal that residue—an added temporal layer draped over ordinary three-dimensional space. The work asks two questions: does memory belong to the room itself, or to the observer who reads it there? And as in architecture where we design for others who use the spaces, is memory ever anything but relational, made between bodies, tools, and place?
 
